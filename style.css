@@ -1,0 +1,192 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background: url(https://wallpaperaccess.com/full/5651982.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.logo{
+	color: whitesmoke;
+	font-size: 50px;
+    letter-spacing: 5px;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo span{
+    color: #6c67b6;
+}
+.menu a:hover{
+    background: #6c67b6;
+    transition: 0.4;
+}
+.text{
+    color: whitesmoke;
+    margin-top: 100px;
+    margin-left: 1000px;
+    max-width: 450px;
+}
+.text h1{
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.text p{
+    font-size: 25px;
+}
+.c-btn{
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    background: #6c67b6;
+    padding: 10px;
+    margin-top: 20px;
+}
+.about{
+    padding: 100px 50px;
+}
+.section-info{
+    font-weight: bold;
+    text-align: center;
+}
+.section-info h1{
+    font-size: 50px;
+}
+.section-info p{
+    font-size: 25px;
+    color: #6c67b6;
+}
+.about-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+        
+        padding: 50px;
+}
+.about-right-col{
+    flex-basis: 50%;
+}
+#p-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-right-col p{
+    font-size: 20px;
+    text-align: justify;
+}
+#Skills{
+    padding: 50px;
+
+    background: url(https://media.istockphoto.com/photos/elements-of-leadership-to-success-concept-hand-holding-wood-block-picture-id1159068184?k=20&m=1159068184&s=612x612&w=0&h=T3tzIVVE_1ngrvAwvMFMMHC0mthg2Oan15N5MLNjRzo=);
+    background-size: cover;
+    color: black;
+}
+
+.skills-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 35rem;
+}
+.skills-left-col{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.skills-right-col{
+    flex-basis: 50%;
+}
+progress{
+    width: 130%;
+    display: inline;
+}
+#service{
+    padding: 100px 50px;
+
+}
+#service h1{
+    padding-top: 1rem;
+    
+}
+.service-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.service-box{
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 2px 3px 5px grey;
+    padding: 20px;
+    margin-top: 20px;
+}
+.service-box:hover{
+    background: #6c67b6;
+    color: white;
+    transition: 0.4s;
+}
+.service-box img{
+    width: 60%;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(160deg,#6c67b6 45%,white 0%);
+    height: 500px;
+}
+.contact-left-col{
+    flex-basis: 50%;
+}
+.contact-right-col{
+    flex-basis: 50%;
+}
+.contact-right-col form{
+    text-align: center;
+}
+.contact-right-col form h2{
+    margin-bottom: 20px;
+}
+.contact-right-col form input{
+      width: 60%;
+      padding: 10px;
+      margin-bottom: 10px;
+}
+.contact-right-col form textarea{
+    width: 60%;
+    padding: 10px;
+}
+#footer{
+    background: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+}
